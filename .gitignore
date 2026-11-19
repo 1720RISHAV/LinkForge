@@ -1,0 +1,27 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+*.tfplan
+
+# Lambda
+lambda/**/*.zip
+__pycache__/
+*.pyc
+
+# Sensitive configuration
+.env
+.env.*
+!.env.example
+.aws/
+
+# Frontend configuration
+frontend/config.js
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
